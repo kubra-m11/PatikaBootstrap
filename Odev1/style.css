@@ -1,0 +1,75 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    background-color: #E9ECEF ;
+}
+/* navbar section */
+.navbar{
+    background-color: #373636;
+}
+.navbar .nav .nav-item .nav-link{
+    color: whitesmoke;
+}
+.navbar .navbar-brand{
+    color: whitesmoke;
+}
+.active{
+    color:rgb(235, 21, 21) !important;
+}
+/* main section */
+
+.main .jumbotron {
+    text-align: center;
+    margin-top: 5rem;
+}
+.jumbotron h1{
+    color: red;
+    font-size: 4em;
+}
+.main .jumbotron-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.jumbotron-2 h5{
+    color: goldenrod;
+}
+
+/* urunler section */
+
+
+#urunler h3{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 3em;
+}
+#urunler .card .card-body .card-title{
+    color: blueviolet;
+}
+
+
+/* about section */
+
+#about h2{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+#about h5{
+    color: goldenrod;
+}
+
